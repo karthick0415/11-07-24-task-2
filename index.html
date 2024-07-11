@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <style>
+       .main-con{
+        margin: 150px auto;
+        /* background-color: antiquewhite; */
+        width:fit-content;
+        padding: 30px;
+        
+       }
+       .form form{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       
+        
+       }
+     button{   
+        width: 100%;
+        display: block;
+        height: 30px;     
+        outline: none;
+        border: none;
+        background-color: #ebe6e6cc;
+        margin-top: 10px;
+       }
+       input[type="text"],input[type="email"]{   
+        width: 190px;
+        display: block;
+        height: 30px;
+        margin: 5px;     
+        outline: none;
+        border: none;
+        background-color: #ebe6e6cc;
+        margin-top: 10px;
+       }
+       .check{
+        display: flex;
+        justify-content: flex-start;
+       }
+       .check input{
+        margin-top: 10px;
+       }
+       button{
+        background-color: rgb(253, 124, 77);
+        color: white;
+       }
+       .main-con h1{
+        text-align: center;
+        color: rgb(253, 124, 77);
+       }
+      .check2{
+        margin-left: 40px;
+      }
+      
+    </style>
+</head>
+<body>
+  <div class="main-con">
+  <h1><i class="fa-solid fa-flask" style="color: #ff8019;"></i>ACQUIOS</h1>
+  <div class="form">
+    <form action="">
+      <div>
+      <label for="">First Name*</label>
+      <input type="text">
+     </div>
+
+     <div>
+      <label for="">Last Name*</label>
+      <input type="text">
+    </div>
+    <div>
+      <label for="">Email Address*</label>
+      <input type="email">
+    </div>
+    </form>
+  </div>
+  <p>How was your overall experience?*</p>
+  <i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #ebe6e6cc;"></i>
+  <p>Was our representative (check all that apply):</p>
+  <div class="check">
+    <div class="check1">
+      <input type="checkbox" name="" id=""> Professional and courteous?<br>
+      <input type="checkbox" name="" id=""> Knowledgeable?<br>
+      <input type="checkbox" name="" id=""> Friendly?<br>
+      <input type="checkbox" name="" id=""> Efficient?<br>
+    </div>
+    <div class="check2">
+      <input type="checkbox" name="" id=""> Patient?<br>
+      <input type="checkbox" name="" id=""> Warm and respectful?<br>
+      <input type="checkbox" name="" id=""> Clear and direct?<br>
+    </div>
+  
+  </div>
+  <button>Submit Feedback</button>
+
+</div>
+
+</body>
+</html>
